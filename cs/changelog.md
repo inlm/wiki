@@ -1,6 +1,10 @@
 
 # Changelog
 
+## [3.0.0](https://github.com/Tharos/LeanMapper/tree/v3.0.0) (8. 3. 2016)
+
+[Release notes (en)](https://github.com/Tharos/LeanMapper/releases/tag/v3.0.0)
+
 ## [2.3.0](https://github.com/Tharos/LeanMapper/tree/v2.3.0) (9. 2. 2016)
 
 
