@@ -56,14 +56,14 @@ U dovětků platí, že jejich jednotlivé části jsou odděleny dvojtečkou a 
 
 Pro dokonalé pochopení následuje ještě pár příkladů:
 
-| Nejstručnější zápis | Příklad (ekvivalentního zápisu|ekvivalentních zápisů)
+| Nejstručnější zápis | Příklad (ekvivalentního zápisu/ekvivalentních zápisů)
 |---------------------|------------------------------------------------------
 | Author $author m:hasOne | Author $author m:hasOne(author_id:author)
 | Author $author m:hasOne(reviewer_id) | Author $author m:hasOne(reviewer_id:author)
 | Tag[] $tags m:hasMany | Tag[] $tags m:hasMany(book_id:book_tag:tag_id:tag)
-| Tag[] $tags m:hasMany(book_id:::tag)
-| Tag[] $tags m:hasMany(book_id::tag_id:tag)
-| Tag[] $tags m:hasMany(book_id::tag_id)
+| | Tag[] $tags m:hasMany(book_id:::tag)
+| | Tag[] $tags m:hasMany(book_id::tag_id:tag)
+| | Tag[] $tags m:hasMany(book_id::tag_id)
 | Tag[] $tags m:hasMany(::supertag_id:supertag) | Tag[] $tags m:hasMany(book_id:book_tag:supertag_id:supertag)
 | Book[] $books m:belongsToMany | Book[] $books m:belongsToMany(author_id:author)
 | OrderDetail $detail m:belongsToOne | OrderDetail $detail m:belongsToOne(order_id:orderdetail)
