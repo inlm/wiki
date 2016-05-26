@@ -1,7 +1,7 @@
 
 # Mapper
 
-Mapper je třída implementující rozhraní `LeanMapper\IMapper`. Mapper definuje výchozí [konvence](konvence.md) používané systémem. Jedná se např. o tvar názvu vazební tabulky, převod názvu entitu na název tabulky, apod.
+Mapper je třída implementující rozhraní `LeanMapper\IMapper`. Mapper definuje výchozí [konvence](konvence.md) používané systémem. Jedná se např. o tvar názvu vazební tabulky, převod názvu entity na název tabulky, apod.
 
 Výchozí implementací je třída `LeanMapper\DefaultMapper`.
 
