@@ -13,6 +13,8 @@ composer require tharos/leanmapper
 Požadovanou verzi můžete stáhnout ve formátech `zip` a `tar.gz`.
 
 
+* [3.0.0](https://github.com/Tharos/LeanMapper/releases/tag/v3.0.0) ve formátu [zip](https://github.com/Tharos/LeanMapper/archive/v3.0.0.zip) a [tar.gz](https://github.com/Tharos/LeanMapper/archive/v3.0.0.tar.gz), [release notes](https://github.com/Tharos/LeanMapper/releases/tag/v3.0.0)
+
 * [2.3.0](https://github.com/Tharos/LeanMapper/releases/tag/v2.3.0) ve formátu [zip](https://github.com/Tharos/LeanMapper/archive/v2.3.0.zip) a [tar.gz](https://github.com/Tharos/LeanMapper/archive/v2.3.0.tar.gz)
 
 * [2.2.0](https://github.com/Tharos/LeanMapper/releases/tag/v2.2.0) ve formátu [zip](https://github.com/Tharos/LeanMapper/archive/v2.2.0.zip) a [tar.gz](https://github.com/Tharos/LeanMapper/archive/v2.2.0.tar.gz), [informace o vydání](http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=22#p124335)
